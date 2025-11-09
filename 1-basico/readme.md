@@ -11,6 +11,8 @@ cd Como-aprender-git
 git log
 ```
 
+* O comando pode ser executado em qualquer diretorio dentro do Repositório
+
 ![git-log](/imagens/basico-log.gif)
 
 ## 2. Visualização do estado do Repositório
@@ -20,6 +22,11 @@ git status
 ```
 
 ![git-status](/imagens/basico-status.gif)
+
+
+Resultado quando existem arquivos modificados
+![git-status](/imagens/basico-status-com-modificacoes.gif)
+
 
 ## 3. Adicionando um Arquivo no Repositório
 
