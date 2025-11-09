@@ -1,8 +1,8 @@
 ## 0. Clone este Repositório com acesso SSH
 
 ```bash
-git clone git@github.com:VRI-UFPR/Como-aprender-git.git
-cd Como-aprender-git
+git clone git@github.com:VRI-UFPR/como-aprender-git.git
+cd como-aprender-git
 ```
 
 ## 1. Visualização dos Logs do Repositórios
