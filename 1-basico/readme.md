@@ -5,6 +5,13 @@ git clone git@github.com:VRI-UFPR/como-aprender-git.git
 cd como-aprender-git
 ```
 
+![git-log](/imagens/basico-clone.gif)
+
+Caso dê erro de permissão, existem 2 possibilidades:
+* você não está cadastrado no grupo VRI
+* você ainda não cadastrou sua chave SSH
+
+
 ## 1. Visualização dos Logs do Repositórios
 
 ```bash
@@ -14,6 +21,7 @@ git log
 * O comando pode ser executado em qualquer diretorio dentro do Repositório
 
 ![git-log](/imagens/basico-log.gif)
+
 
 ## 2. Visualização do estado do Repositório
 
