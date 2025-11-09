@@ -1,32 +1,43 @@
-## Clone este Repositório com acesso SSH
+## 0. Clone este Repositório com acesso SSH
 
 ```bash
-git clone
-cd como-aprender-git
+git clone git@github.com:VRI-UFPR/Como-aprender-git.git
+cd Como-aprender-git
 ```
 
-## Visualização dos Logs do Repositórios
+## 1. Visualização dos Logs do Repositórios
 
 ```bash
-git log 
+git log
 ```
 
-## Editando um Arquivo
+![git-log](/imagens/basico-log.gif)
 
-
-## Visualização do estado do Repositório
+## 2. Visualização do estado do Repositório
 
 ```bash
 git status 
 ```
 
-## Visualização das diferenças com o commit anterior
+![git-status](/imagens/basico-status.gif)
+
+## 3. Adicionando um Arquivo no Repositório
+
+```bash
+git status
+touch novo_arquivo.txt
+git add novo_arquivo.txt
+git status
+```
+
+
+## 4. Visualização das diferenças com o commit anterior
 
 ```bash
 git diff
 ```
 
-## Realização do Commit e envio ao Repositório
+## 5. Realização do Commit e envio ao Repositório
 
 ```bash
 git commit teste.txt -m "testando"
@@ -35,7 +46,7 @@ git push
 
 Necessário o cadastro da chave SSH no github
 
-## Atualização do Repositório local
+## 6. Atualização do Repositório local
 
 ```bash
 git pull
